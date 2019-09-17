@@ -1,58 +1,41 @@
 
     a:link {color:#ffffff;}
-    a:visited {color:#09c071;}
-    a:active {color:#69e7c8;}
-    a:hover {color:#08b403;}
+    a:visited {color:#000000;}
+    a:active {color:#506649;}
+    a:hover {color:#818381;}
   
+    html, body {
+      margin: 0; padding: 0;
+      }
+
     body 
     {
-      background: url("greenhd.jpg") no-repeat center center fixed;
+      background: url("fondogris.jpg") no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
      }
-  
-     h1
-     {
-      color: rgb(56, 139, 1)
-     }
-
-     h1 span
-     { 
-      background-color:  rgba(0, 0, 0, 0.986)
-     }
 
 
-     h2
-     {
-      color: rgb(255, 255, 255)
-     }
-     h2 span
-     { 
-      background-color:  rgba(0, 0, 0, 0.986)
-     }
-
-
-
-     table#t01 {
+     #t01 {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 100%;
+      margin: auto;
     }
     
     td, th {
       border: 1px solid #dddddd;
-      text-align: left;
       padding: 8px;
+
     }
     
     tr:nth-child(even) {
-      background-color: #2edb03fd;
+      background-color: #48d823fd;
     }
 
     tr:nth-child(odd) {
-      background-color: #178b27;
+      background-color: #186322;
     }
     
     caption{
@@ -62,5 +45,53 @@
     }
 
     li{
+
       font-family: Arial, Helvetica, sans-serif;
+      font-size: 110%;
+      display: inline-block;
+      background-color: #48d823fd;
+      
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+
+    }
+
+    #cabeza p{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #000000;
+      text-align: center;
+      font-size: 150%;
+      font-weight: bold;
+
+    }
+
+    #cabeza{
+    background-color: #dddddd;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-style: none;
+    }
+
+
+
+
+    #contenido{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #b3aeae;
+      text-align: center;
+      font-weight: bold;
+      margin:10px auto;
+    }
+
+    #pie{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #b3aeae;
+      text-align: center;
+      font-weight: bold;
+      margin:10px auto;
     }
