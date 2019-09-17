@@ -1,0 +1,20 @@
+p {
+    font-family: "Tahoma", "Geneva", sans-serif;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    border: rgb(0, 0, 0) 2px solid;
+    
+    
+  }
+
+  h1{
+    font-family: "Tahoma", "Geneva", sans-serif;
+    color: rgb(233, 22, 22);
+    background-color: rgb(0, 0, 0)
+  }
+
+  h2{
+    font-family: "Tahoma", "Geneva", sans-serif;
+
+  }
