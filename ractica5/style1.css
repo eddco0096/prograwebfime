@@ -1,0 +1,61 @@
+html,
+body,
+:root {
+    position: relative;
+    display:block;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #eaffea;
+}
+
+@font-face {
+    font-family: 'i-hate-comic-sans';
+    src: url('./IHATCS.ttf'); 
+}
+
+
+
+div#header{
+    background-color: #6ad66a;
+    color: white;
+    border:10px solid;
+    border-color: transparent;
+    text-align:center;
+    padding: 1em 1em 6em 1em;
+    
+}
+
+section#cuerpo{
+    margin: -5em 3em 0 3em;
+}
+
+
+section {
+    margin: 3em 3em;
+    box-shadow: 0 5px 5px 5px #b1eab1;
+    text-align: justify;
+    padding: 1em 4em;
+    background-color: white;
+    font-family: 'i-hate-comic-sans';
+    color: #444444;
+    letter-spacing: 2px;
+}
+
+img#html{
+
+   
+
+}
+
+
+img#html5{
+
+    
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
