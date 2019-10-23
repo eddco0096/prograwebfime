@@ -1,0 +1,97 @@
+<html>
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8 / html5">
+            <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+            <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+            <meta name="viewport" content = "width=device width, initial-scale=1"> 
+
+         <title>Práctica 7</title>
+         <link rel="stylesheet" href="estilo7.css">
+    </head>
+
+    <body>
+       <header class="header">
+           <div class="container logo-nav-container">
+           <img src="osologo.png" class = "logofime"  alt="logo">
+            <nav class = "navigation" >    
+                <ul> 
+                    <li> <a href="practica6.html">Práctica anterior</a> </li>
+                    <li> <a href="index.html">Menú principal</a> </li>
+                    <li> <a href="PIA.html">PIA</a> </li>
+                    <li> <a href="edson.corona96@gmail.com">Contacto</a> </li>
+                </ul>
+            </nav>
+            </div>
+         </header>
+
+         <main class= "main">
+        <div class="container">
+            <h1 id= titulo> Práctica 7: Drag and drop  </h1>
+
+
+            <div id = contenido > 
+                    <p> Arrastra los objetos al lugar donde corresponden, reciclable o no reciclable</p>
+                    <br>
+            </div>
+
+            <div id = "elementos">
+
+                    <img class="reciclabletrue" src="PaPel.png" draggable="true" ondragstart="drag(event)" >
+
+                    <img class="reciclablefalse" src="envoltura.jpg" draggable="true"  draggable="true" ondragstart="drag(event)" >
+
+                    <img class="reciclabletrue" src="Pet.png" draggable="true"  draggable="true" ondragstart="drag(event)" >
+
+                    <img class="reciclablefalse" src="Pluma.png" draggable="true"  draggable="true" ondragstart="drag(event)" >
+
+                    <img class="reciclabletrue" src="aluminio.png" draggable="true"  draggable="true" ondragstart="drag(event)" >
+
+                    <img class="reciclablefalse" src="unicel.png" draggable="true"  draggable="true" ondragstart="drag(event)" >
+                    
+                </div>
+
+            <div id = "contenedorbasura" > Basura 
+                <br> 
+                
+                <img class="contenedores" src="basura.png" alt="basura" >
+
+                <div class="cuadrocontenedor" > 
+                    <img class="cuadrocont" src="cuadro.png" alt="cuadro" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+
+                <div class="cuadrocontenedor" > 
+                        <img class="cuadrocont" src="cuadro.png" alt="cuadro" ondrop="drop(event)" ondragover="allowDrop(event)" >
+                    </div>
+
+                    <div class="cuadrocontenedor" > 
+                            <img class="cuadrocont" src="cuadro.png" alt="cuadro" ondrop="drop(event)" ondragover="allowDrop(event)" >
+                        </div>
+                 
+            </div>
+
+            <div id = "contenedorreciclable"> Reciclable
+                    <br> 
+
+                    <img class="contenedores" src="reciclable.png" alt="reciclable">
+
+                    <div class="cuadrocontenedor" > 
+                            <img class="cuadrocont" src="cuadro.png" alt="cuadro" ondrop="drop(event)" ondragover="allowDrop(event)" >
+                        </div>
+        
+                        <div class="cuadrocontenedor" > 
+                                <img class="cuadrocont" src="cuadro.png" alt="cuadro" ondrop="drop(event)" ondragover="allowDrop(event)" >
+                            </div>
+        
+                            <div class="cuadrocontenedor" > 
+                                    <img class="cuadrocont" src="cuadro.png" alt="cuadro" ondrop="drop(event)" ondragover="allowDrop(event)" >
+                                </div>        
+            </div>
+        </div>
+         </main>
+         <footer class = "footer" > Facultad de Ingeniería Mécanica y Eléctrica, Laboratorio de programación web, octubre 2019 </footer>
+   
+        <script src ="siete.js"></script> 
+        </body>
+</html>
